@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../components/Button";
 
@@ -15,11 +16,15 @@ const Descr = styled.div`
   text-align: center;
 `;
 const NotFound = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <Title>The page was not found, please return to the main page</Title>
       <Descr>404</Descr>
-      <Button style={{ margin: " 0 auto" }}>Home</Button>
+      <Button onClick={() => navigate(`/`)} style={{ margin: " 0 auto" }}>
+        Home
+      </Button>
     </>
   );
 };
