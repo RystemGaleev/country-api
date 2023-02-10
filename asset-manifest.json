@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/country-api/static/css/main.13a6d0da.css",
+    "main.js": "/github.io/country-api/static/js/main.305df6ed.js",
+    "index.html": "/github.io/country-api/index.html",
+    "main.13a6d0da.css.map": "/github.io/country-api/static/css/main.13a6d0da.css.map",
+    "main.305df6ed.js.map": "/github.io/country-api/static/js/main.305df6ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13a6d0da.css",
+    "static/js/main.305df6ed.js"
+  ]
+}
